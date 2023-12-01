@@ -9,21 +9,34 @@
 </head>
 <body>
     <h1>TIC TAC TOE</h1>
-    <h2>Player: 1 GO!</h2>
-    <sectio id="score-card"></sectio>
-    <section>
-        <div id="c0r2"></div>
-        <div id="c0r2"></div>
-        <div id="c0r2"></div>
-
-        <div id="c0r1"></div>
-        <div id="c1r1"></div>
-        <div id="c2r1"></div>
-
-        <div id="c0r0"></div>
-        <div id="c1r0"></div>
-        <div id="c1r0"></div>
+    
+    <section id="score-card">
+        <div id="p1-card">
+            <span id="p1-nametag">PLAYER 1</span>
+            <span id="p1-icon">X</span>
+        </div>
+        <h2>PLAYER: 1 GO!</h2>
+        
+        <div id="p2-card">
+            <span id="p2-nametag">PLAYER 2</span>
+            <span id="p2-icon">O</span>
+        </div>
     </section>
+    
+    <section class="board">
+        <div id="c0r2">c0r2</div>
+        <div id="c1r2">c1r2</div>
+        <div id="c2r2">c2r2</div>
+        
+        <div id="c0r1">c0r1</div>
+        <div id="c1r1">c1r1</div>
+        <div id="c2r1">c2r1</div>
+        
+        <div id="c0r0">c0r0</div>
+        <div id="c1r0">c1r0</div>
+        <div id="c2r0">c2r0</div>
+    </section>
+    <button id="reset-btn">RESTART</button>
 
 </body>
 </html>

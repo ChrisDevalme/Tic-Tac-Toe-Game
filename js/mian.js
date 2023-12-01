@@ -1,5 +1,7 @@
 	/*----- constants -----*/
-
+let icons = {
+	
+}
 
 	/*----- state variables -----*/
 

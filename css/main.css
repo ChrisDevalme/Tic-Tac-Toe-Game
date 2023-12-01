@@ -1,0 +1,61 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#score-card{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 350px;
+    margin-top: 7vmin;
+    margin-bottom: 3vmin;
+}
+
+#p1-icon, #p2-icon {
+    font-size: 30px;
+}
+
+#p1-card, #p2-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid white;
+    border-radius: 10% 10%;
+    padding: .5rem 4rem .5rem;
+}
+
+button {
+    margin: auto;
+    padding: 1rem 4rem 1rem ;
+    text-align: center;
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 15vmin);
+    grid-template-rows: repeat(3, 15vmin);
+    margin-top: 5vmin;
+    margin-bottom: 3vmin;
+    justify-content: center;
+}
+
+.board > div {
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(71, 71, 71);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(29, 29, 29);
+}
