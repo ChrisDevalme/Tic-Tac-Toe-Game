@@ -51,7 +51,7 @@ body {
   }
   
   
-  .board {
+  #board {
     display: grid;
     grid-template-columns: repeat(3, 15vmin);
     grid-template-rows: repeat(3, 15vmin);
@@ -60,7 +60,7 @@ body {
     justify-content: center;
   }
   
-  .board>div {
+  #board > div {
     background-color: red;
     justify-content: center;
     align-items: center;
