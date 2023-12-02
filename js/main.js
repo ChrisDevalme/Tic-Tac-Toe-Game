@@ -50,6 +50,7 @@ function playerMove(event) {
         const boardSpace = `c${columnIndex}r${rowIndex}`
         const boardEl = document.getElementById(boardSpace)
       })
+      
     })
     
     turn *= -1
