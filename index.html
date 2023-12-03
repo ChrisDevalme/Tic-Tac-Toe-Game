@@ -10,39 +10,23 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <h1 id="game-title">TIC TAC TOE</h1>
-    <h3>BEST OF 5:</h3>
-    <h3>0 <span id="dash">-</span> 0</h3>
-
-    <section id="score-card">
-      <div id="p1-card">
-        <span id="p1-nametag">PLAYER 1</span>
-        <span id="p1-icon">X</span>
-      </div>
-      <h2 id="game-message">PLAYER: 1 GO!</h2>
-
-      <div id="p2-card">
-        <span id="p2-nametag">PLAYER 2</span>
-        <span id="p2-icon">O</span>
-      </div>
+    <section>
+        <h1 class ="title">Tic Tac Toe</h1>
+        <h3 class ="game-state"></h3>
+        <div class="game-container">
+            <div data-cell-index="0" class="box-space"></div>
+            <div data-cell-index="1" class="box-space"></div>
+            <div data-cell-index="2" class="box-space"></div>
+            <div data-cell-index="3" class="box-space"></div>
+            <div data-cell-index="4" class="box-space"></div>
+            <div data-cell-index="5" class="box-space"></div>
+            <div data-cell-index="6" class="box-space"></div>
+            <div data-cell-index="7" class="box-space"></div>
+            <div data-cell-index="8" class="box-space"></div>
+        </div>
+        <h3 class ="game-message-display"></h3>
+        <button class="restart-btn">Resart Game</button>
     </section>
-
-    <section id="board">
-      <div id="c0r2"></div>
-      <div id="c1r2"></div>
-      <div id="c2r2"></div>
-
-      <div id="c0r1"></div>
-      <div id="c1r1"></div>
-      <div id="c2r1"></div>
-
-      <div id="c0r0"></div>
-      <div id="c1r0"></div>
-      <div id="c2r0"></div>
-    </section>
-    <div id="button"><button id="reset-btn">RESTART</button></div>
-  </div>
 </body>
 
 </html>

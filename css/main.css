@@ -1,105 +1,58 @@
-body {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    width: 100vw;
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    font-family: 'Staatliches', sans-serif;
+    background-color: navy;
     color: white;
-    background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .wrapper {
-    background-color: black;
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  h1,
-  h2,
-  h3 {
+    font-size: 40px;
+}
+
+section {
     text-align: center;
-  }
-  
-  #score-card {
-    display: flex;
-    gap: 90px;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 7vmin;
-    margin-bottom: 3vmin;
-  }
-  
-  #p1-icon,
-  #p2-icon {
-    font-size: 30px;
-  }
-  
-  #p1-card,
-  #p2-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid #444444;
-    border-radius: 10% 10%;
-    padding: .5rem 2rem .5rem;
-    color: green;
-  }
-  
-  #p2-card {
-    color: yellow;
-  }
-  
-  
-  #board {
+    border-radius: 10px;
+    width: 700px;
+    margin: auto;
+    background-color: rgb(0, 0, 73);
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0,0,0,0.1);
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.game-container{
     display: grid;
-    grid-template-columns: repeat(3, 15vmin);
-    grid-template-rows: repeat(3, 15vmin);
-    margin-top: 5vmin;
-    margin-bottom: 3vmin;
-    justify-content: center;
-  }
-  
-  #board > div {
-    background-color: red;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 5px solid rgb(131, 17, 0);
-    display: table;
-    line-height: 14vmin;
-  }
+    grid-template-columns: repeat(3, auto);
+    width: 455px;
+    margin: 120px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    background-color: rgb(66, 0, 0);
+}
 
-  .X {
-    color: green;
-    font-size: 10vmin;
-  }
-
-  .O {
-    color: yellow;
-    font-size: 10vmin;
-  }
-
-  .blank{
-    color: red;
-    font-size: 1px;
-  }
-
-  #button {
-    display: flex;
-    justify-content: center;
-  }
-  
-  button {
-    margin-top: 2rem;
-    padding: 1rem 4rem 1rem;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border-radius: 25%;
-    border: 2px solid #444444;
-  }
-  
-  button:hover {
+.box-space {
+    font-family: 'Staatliches', sans-serif;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid white;
     cursor: pointer;
-  }
+    line-height: 150px;
+    font-size: large;
+}
+
+button {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 95px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.25s;
+    background-color: crimson;
+}
