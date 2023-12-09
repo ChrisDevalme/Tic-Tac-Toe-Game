@@ -19,9 +19,9 @@ Tally of player scores with a "Best of 5" feature.
 
 Files
 
-index.html: The main HTML file containing the game board and interface.
-style.css: The CSS file styling the appearance of the game.
-script.js: The JavaScript file containing the game logic and functionality.
+- index.html: The main HTML file containing the game board and interface.
+- style.css: The CSS file styling the appearance of the game.
+- script.js: The JavaScript file containing the game logic and functionality.
 Code Structure
 
 The JavaScript code is organized into sections:
